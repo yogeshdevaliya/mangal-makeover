@@ -1,0 +1,131 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+.p0 {
+	padding: 0!important;
+}
+.m0 {
+	margin: 0!important;
+}
+.wh-100 {
+	width: 100%;
+	height: 100%;
+}
+.navbar-brand.logo {
+	-webkit-transition: all .25s;
+	   -moz-transition: all .25s;
+	    -ms-transition: all .25s;
+	     -o-transition: all .25s;
+	        transition: all .25s;
+	text-decoration: underline;
+}
+.navbar-brand.logo:hover {
+	letter-spacing: 2px;
+}
+
+.auth-wrapper {
+	background-blend-mode: overlay;
+	background: url(../images/bg2.jpeg), rgba(0, 0, 0, .3);
+	background-size: cover;
+	height: 100%;
+}
+.auth-card {
+	position: relative;
+	border: 1px solid #ececec;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0 0 40px rgba(0, 0, 0, .5);
+	padding: 20px;
+	border-radius: 4px;
+}
+.auth-logo {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background: mistyrose;
+	box-shadow: 0 3px 15px rgba(0, 0, 0, .2);
+	top: -75px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	display: table;
+	border-radius: 50%;
+}
+.auth-logo label {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: "Charm", sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: deeppink;
+}
+.auth-card-body {
+	margin-top: 75px;
+}
+
+.form-input, .form-control {
+	border: 2px solid #c9c9c9 !important;
+}
+.form-input:focus, .form-control:focus {
+	border-color: deeppink !important;
+	box-shadow: none !important;
+}
+.form-input.txtarea {
+	border-radius: 3px;
+	padding: 10px;
+	min-height: 115px;
+}
+
+.form-btn {
+	background: deeppink;
+	padding: 8px 25px;
+	color: #fff !important;
+	font-family: "Nunito", sans-serif;
+	border: 0;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 4px;
+	-webkit-transition: all .25s;
+	   -moz-transition: all .25s;
+	    -ms-transition: all .25s;
+	     -o-transition: all .25s;
+	        transition: all .25s;
+	outline: none;
+	cursor: pointer;
+	font-weight: 700;
+	text-decoration: none;
+}
+.form-btn:hover, .form-btn:focus {
+	text-decoration: none;
+	background: mistyrose;
+	color: deeppink !important;
+	box-shadow: 0 0 0 3px deeppink inset;
+	outline: none;
+}
+.form-btn.btn-link {
+	display: inline-block;
+	background: transparent;
+	color: deeppink;
+	padding: inherit;
+}
+.form-btn.btn-link:hover {
+	color: #2c2c2c;
+	box-shadow: none;
+}
+.form-btn.btn-mini {
+	padding: 5px 12px;
+	font-size: 14px;
+}
+.title-light {
+	color: #6c6c6c;
+	font-weight: 300;
+	font-size: 25px;
+}
+.btn i {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.mt-10 {
+	margin-top: 10px;
+}

@@ -1,0 +1,36 @@
+@media print{@page {size: landscape}}
+body {
+    background: #fff;
+    overflow-x: hidden;
+}
+.print-layout {
+    padding: 20px;
+    margin: 0 20px;
+    outline-offset: 2px;
+    display: inline-block;
+    width: 40%;
+    min-width: 550px;
+}
+ .title {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+ }
+.underline {
+    display: inline-block;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin-bottom: 7px;
+}
+.heading {
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+p {
+	margin-bottom: 0;
+}
+.table td, .table th {
+	padding: 5px;
+}
